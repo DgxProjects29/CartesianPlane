@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/diag_er_tx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="25dp"
+        android:paddingTop="15dp"
+        android:text="Graph Info"
+        android:gravity="center"
+        android:textColor="@color/PrimaryText"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Eq1_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eq1"
+        android:textColor="@color/PrimaryText"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/ic_square_red_24dp"
+        android:drawablePadding="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/Eq2_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eq2"
+        android:textColor="@color/PrimaryText"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/ic_square_blue_24dp"
+        android:drawablePadding="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/intersection_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intercept"
+        android:textColor="@color/PrimaryText"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/ic_my_location_color_24dp"
+        android:drawablePadding="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"/>
+
+</LinearLayout>

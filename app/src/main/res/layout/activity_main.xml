@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.dgx.inevaup.app.cartesianplane.CartesianView
+        android:id="@+id/CanvasView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.dgx.inevaup.app.cartesianplane.CartesianView>
+
+
+    <ImageButton
+        android:id="@+id/centerbutton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/oval2"
+        android:src="@drawable/ic_my_location_color_36dp"
+
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="bottom|end" />
+
+</android.support.design.widget.CoordinatorLayout>
